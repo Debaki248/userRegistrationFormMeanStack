@@ -1,0 +1,12 @@
+.signUpForm{
+    background-color: #978282;
+    width:450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    border-radius: 35px;
+    opacity: 81%;
+    padding-top: 56px;
+    padding-bottom:45px;
+}

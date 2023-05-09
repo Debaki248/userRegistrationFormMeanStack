@@ -1,0 +1,39 @@
+.message{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.success{
+    display:flex;
+    justify-content: center;
+    font-weight: bolder;
+    align-items: center;
+    color:green;
+}
+.error{
+    display:flex;
+    justify-content: center;
+    font-weight: bolder;
+    align-items: center;
+    color:red;
+}
+.submitButton{
+    background-color: #5ddc5d;
+    height:29px;
+    width:92px;
+    color:white;
+    display:block;
+    margin:auto;
+}
+form{
+    width:54%;
+    display: flex;
+    flex-direction:column;
+    row-gap:10px;
+}
+.addValidationColor{
+    font-weight:bolder;
+    color: red;
+    padding:0;
+    margin: 0;
+}
