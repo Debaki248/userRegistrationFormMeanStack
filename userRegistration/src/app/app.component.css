@@ -10,3 +10,8 @@
     padding-top: 56px;
     padding-bottom:45px;
 }
+@media (max-width:450px){
+    .signUpForm{
+      width:250px;  
+    }
+}
