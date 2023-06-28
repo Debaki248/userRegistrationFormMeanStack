@@ -6,7 +6,7 @@
         </div>
       </div>
       <div class="mb-3">
-        <input type="text" name="fullName" placeholder="Enter FullName" class="form-control" id="exampleInputPassword1" ngModel #fullName="ngModel" pattern="[a-zA-Z]+$" required>
+        <input type="text" name="fullName" placeholder="Enter FullName" class="form-control" id="exampleInputPassword1" ngModel #fullName="ngModel" pattern="[a-zA-Z ]+$" required>
       <div *ngIf="fullName.invalid && (fullName.dirty || fullName.touched)" class="alert addValidationColor">
             Fullname is required
       </div>
